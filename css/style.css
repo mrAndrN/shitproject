@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url(../img/bg.jpg);
+	background-color: #000e19;
+	background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 1100px;
+    min-height: 700px;
+    background-color: #0000009c;
+    margin: 115px auto 0px auto;
+    border-radius: 5px;
+}
+
+.container .header .logo {
+    height: 50px;
+    background-image: url(../img/header.jpg);
+    background-color: #002e58;
+    border-bottom: solid 4px #10100ef5;
+}
+
+.container .header .logo .logo_text h1 {
+    padding-top: 11px;
+    padding-left: 141px;
+    color: #e78e00;
+	letter-spacing: 0.1em;
+    font-weight: 700;
+}
+
+.container .header .logo .logo_text a {
+    text-decoration: none;
+}
+
+.container .navbar ul {
+    background-color: #2f2e29;
+	border-bottom: solid 4px #10100ef5;
+}
+
+.container .navbar li {
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	border-right: 1px solid black;
+	padding: 0 25px 0 10px;
+	list-style: none;
+	margin-right: -.25em;
+}
+
+.container .navbar li:hover {
+	background-color: #21201d;
+}
+
+.container .navbar li a {
+	font-weight: 400;
+	color: #e78e00;
+	text-decoration: none;
+	letter-spacing: 0.1em;
+}
+
+.container .top_bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+}
+
+.container .top_bar .mini_container, .container .top_bar .micro_container {
+    box-sizing: border-box;
+    width: 301px;
+    height: 158px;
+    padding: 7px;
+    border-radius: 8px;
+    background-color: #00559891;
+    border: 2px solid #11110f;
+}
+
+.container .top_bar .micro_container {
+    width: 172px;
+}
+
+.container .top_bar .mini_container .mini_cont_text {
+    font-weight: 400;
+    font-size: 13px;
+    color: black;
+	letter-spacing: 0.1em;
+    background-color: yellow;
+    border-radius: 4px;
+}
+
+.container .top_bar .mini_container .mini_cont_text h2 {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #e78e00;
+	letter-spacing: 0.1em;
+    margin-bottom: 5px;
+}
+
+.container .top_bar .mini_container .mini_cont_match {
+    background-color: #00192dbf;
+    border-radius: 4px;
+    min-height: 85px;
+    
+}
